@@ -1,0 +1,29 @@
+name: Refresh CLC levels
+
+# Every 30 min, Mon-Fri, 13:00-21:00 UTC ~= 9:00am-5:00pm ET (covers both
+# EDT and EST). GitHub may delay scheduled runs by a few minutes.
+on:
+  schedule:
+    - cron: "*/30 13-21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compute levels
+        run: python3 scripts/compute_levels.py
+      - name: Commit if changed
+        run: |
+          git config user.name "clc-levels-bot"
+          git config user.email "clc-levels-bot@users.noreply.github.com"
+          git add levels.csv
+          git diff --cached --quiet || git commit -m "levels $(date -u +%Y-%m-%dT%H:%M)"
+          git push
