@@ -12,12 +12,15 @@ during the NY session (Mon–Fri) via the `refresh-levels` GitHub Actions workfl
 
 `scripts/compute_levels.py` (stdlib only, no keys needed):
 
-- **Gamma walls + flip**: SPX options chain from CBOE's free delayed quotes
+- **Gamma walls + flip (primary)**: ZeroGEX's published ES levels
+  (zerogex.io/es-gamma-levels, free, ~15-min delayed) — call wall, put wall,
+  gamma flip and net GEX, labelled "(ZeroGEX)" in the CSV.
+- **Cross-check / fallback**: SPX options chain from CBOE's free delayed quotes
   (`cdn.cboe.com/.../options/_SPX.json`), 0–1 DTE window. Per-strike dollar gamma
   = OI × gamma × spot² / 1e9. Call wall = max call-side gamma at/above spot,
   put wall = max put-side gamma at/below spot, flip = strike pair straddling
-  zero nearest spot. SPX levels are translated to ES price space via the live
-  ES/SPX ratio.
+  zero nearest spot, translated to ES via the live ES/SPX ratio. Used when
+  ZeroGEX is unreachable, and labelled "(CBOE calc)".
 - **Spot + prior day high/low**: Yahoo Finance ES futures (`ES=F`), free.
 - Rows are duplicated for `ES` and `MES` symbols (same prices) so the study's
   symbol filter matches either chart.
