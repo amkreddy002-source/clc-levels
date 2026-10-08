@@ -1,13 +1,13 @@
 Automap Command,Symbol,Price Level,Note,Foreground Color,Background Color,Diameter,Text Alignment,Draw Note Price Horizontal Line
 ,ES,7851.00,Call Wall 7851.00 (ZeroGEX),#FFFFFF,#C62828,1,center,TRUE
-,ES,7776.00,Gamma Flip 7776.00 (ZeroGEX),#000000,#FFD740,1,center,TRUE
-,ES,7808.75,ES spot 7808.75,#FFFFFF,#616161,1,center,TRUE
+,ES,7778.00,Gamma Flip 7778.00 (ZeroGEX),#000000,#FFD740,1,center,TRUE
+,ES,7824.00,ES spot 7824.00,#FFFFFF,#616161,1,center,TRUE
 ,ES,7801.00,Put Wall 7801.00 (ZeroGEX),#FFFFFF,#2E7D32,1,center,TRUE
 ,ES,7884.50,Prior Day High 7884.50,#FFFFFF,#1565C0,1,center,TRUE
 ,ES,7815.75,Prior Day Low 7815.75,#FFFFFF,#1565C0,1,center,TRUE
 ,MES,7851.00,Call Wall 7851.00 (ZeroGEX),#FFFFFF,#C62828,1,center,TRUE
-,MES,7776.00,Gamma Flip 7776.00 (ZeroGEX),#000000,#FFD740,1,center,TRUE
-,MES,7808.75,ES spot 7808.75,#FFFFFF,#616161,1,center,TRUE
+,MES,7778.00,Gamma Flip 7778.00 (ZeroGEX),#000000,#FFD740,1,center,TRUE
+,MES,7824.00,ES spot 7824.00,#FFFFFF,#616161,1,center,TRUE
 ,MES,7801.00,Put Wall 7801.00 (ZeroGEX),#FFFFFF,#2E7D32,1,center,TRUE
 ,MES,7884.50,Prior Day High 7884.50,#FFFFFF,#1565C0,1,center,TRUE
 ,MES,7815.75,Prior Day Low 7815.75,#FFFFFF,#1565C0,1,center,TRUE
