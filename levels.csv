@@ -1,13 +1,13 @@
 Automap Command,Symbol,Price Level,Note,Foreground Color,Background Color,Diameter,Text Alignment,Draw Note Price Horizontal Line
-,ES,7472.00,Call Wall 7472.00 (CBOE calc),#FFFFFF,#C62828,1,center,TRUE
-,ES,7429.50,Gamma Flip 7429.50 (CBOE calc),#000000,#FFD740,1,center,TRUE
-,ES,7362.25,ES spot 7362.25,#FFFFFF,#616161,1,center,TRUE
-,ES,7361.75,Put Wall 7361.75 (CBOE calc),#FFFFFF,#2E7D32,1,center,TRUE
+,ES,7476.75,Call Wall 7476.75 (CBOE calc),#FFFFFF,#C62828,1,center,TRUE
+,ES,7434.25,Gamma Flip 7434.25 (CBOE calc),#000000,#FFD740,1,center,TRUE
+,ES,7367.00,ES spot 7367.00,#FFFFFF,#616161,1,center,TRUE
+,ES,7366.50,Put Wall 7366.50 (CBOE calc),#FFFFFF,#2E7D32,1,center,TRUE
 ,ES,7614.25,Prior Day High 7614.25,#FFFFFF,#1565C0,1,center,TRUE
 ,ES,7420.25,Prior Day Low 7420.25,#FFFFFF,#1565C0,1,center,TRUE
-,MES,7472.00,Call Wall 7472.00 (CBOE calc),#FFFFFF,#C62828,1,center,TRUE
-,MES,7429.50,Gamma Flip 7429.50 (CBOE calc),#000000,#FFD740,1,center,TRUE
-,MES,7362.25,ES spot 7362.25,#FFFFFF,#616161,1,center,TRUE
-,MES,7361.75,Put Wall 7361.75 (CBOE calc),#FFFFFF,#2E7D32,1,center,TRUE
+,MES,7476.75,Call Wall 7476.75 (CBOE calc),#FFFFFF,#C62828,1,center,TRUE
+,MES,7434.25,Gamma Flip 7434.25 (CBOE calc),#000000,#FFD740,1,center,TRUE
+,MES,7367.00,ES spot 7367.00,#FFFFFF,#616161,1,center,TRUE
+,MES,7366.50,Put Wall 7366.50 (CBOE calc),#FFFFFF,#2E7D32,1,center,TRUE
 ,MES,7614.25,Prior Day High 7614.25,#FFFFFF,#1565C0,1,center,TRUE
 ,MES,7420.25,Prior Day Low 7420.25,#FFFFFF,#1565C0,1,center,TRUE
